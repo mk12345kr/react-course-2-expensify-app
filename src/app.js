@@ -27,6 +27,8 @@ import "react-dates/lib/css/_datepicker.css";
 
 const store=configureStore();
 
+console.log("test");
+
 // store.dispatch(addExpense({ description:"water bill", amount:4500}));
 // store.dispatch(addExpense({description:"gas bill", createdAt:1000}));
 // store.dispatch(addExpense({description:"rent",amount:109500}));
