@@ -17,6 +17,8 @@ export default (state=expensesReducerDefaultState,action)=>{
         })
         case "REMOVE_EXPENSES":
         return state.filter(({id})=>id!==action.id);
+        case "SET_EXPENSES":
+        return action.expenses
         default:
           return state;
     }
